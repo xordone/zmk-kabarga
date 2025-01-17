@@ -8,7 +8,19 @@ config ZMK_KEYBOARD_NAME
 
 config ZMK_SPLIT
 	default n
-	
+
+config USB_DEVICE_PRODUCT
+	default "kabarga"
+
+config USB_DEVICE_VID
+	default "0x0000"
+
+config USB_DEVICE_PID
+	default "0xFEED"
+
+config USB_DEVICE_MANUFACTURER
+	default "aroum"
+
 if ZMK_RGB_UNDERGLOW
 
 config ZMK_RGB_UNDERGLOW_EXT_POWER

@@ -1,0 +1,7 @@
+/ {
+        layouts_kabarga_position_map: layouts_kabarga_map {
+                compatible = "zmk,physical-layout-position-map";
+
+                complete;
+        };
+};
