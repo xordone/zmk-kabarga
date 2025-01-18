@@ -6,6 +6,7 @@ url: https://github.com/aroum/kabarga/
 requires: [pro_micro]
 features:
   - keys
+  - studio
 siblings:
   - kabarga
 outputs:
