@@ -1,22 +1,22 @@
 # Copyright (c) 2020 The ZMK Contributors
 # SPDX-License-Identifier: MIT
 
-if SHIELD_KABARGA
+if SHIELD_KABARGA_MINI
 
 config ZMK_KEYBOARD_NAME
-	default "KABARGA"
+	default "KABARGA_MINI"
 
 config ZMK_SPLIT
 	default n
 
 config USB_DEVICE_PRODUCT
-	default "kabarga"
+	default "kabarga_mini"
 
 config USB_DEVICE_VID
-	default "0x0000"
+	default "0x0001"
 
 config USB_DEVICE_PID
-	default "0xFEED"
+	default "0xFEEF"
 
 config USB_DEVICE_MANUFACTURER
 	default "aroum"

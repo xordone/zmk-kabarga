@@ -1,5 +1,5 @@
-identifier: kabarga
-name: kabarga
+identifier: kabarga_mini
+name: kabarga_mini
 type: keyboard
 arch: arm
 toolchain:

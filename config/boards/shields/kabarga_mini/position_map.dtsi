@@ -1,5 +1,5 @@
 / {
-        layouts_kabarga_position_map: layouts_kabarga_map {
+        layouts_kabarga_mini_position_map: layouts_kabarga_mini_position_map {
                 compatible = "zmk,physical-layout-position-map";
 
                 complete;
