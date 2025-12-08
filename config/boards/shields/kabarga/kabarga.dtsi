@@ -60,7 +60,7 @@ default_transform: keymap_transform_0 {
 	keys {
         compatible = "gpio-keys";
         soft_off_key: soft_off_key {
-            gpios = <&gpio0 26 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
+            gpios = <&gpio0 14 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
         };
     };
 
@@ -88,7 +88,7 @@ default_transform: keymap_transform_0 {
         soft_off {
             column = <0>;
             row = <0>;
-            bindings = <&kp A>;
+            bindings = <&hw_soft_off>;
         };
     };
 
