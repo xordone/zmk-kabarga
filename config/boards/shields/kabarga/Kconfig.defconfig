@@ -18,6 +18,12 @@ config USB_DEVICE_VID
 config USB_DEVICE_PID
 	default "0xFEED"
 
+# Enable sleep
+CONFIG_ZMK_SLEEP=y
+
+# Enable soft off
+CONFIG_ZMK_PM_SOFT_OFF=y
+
 config USB_DEVICE_MANUFACTURER
 	default "aroum"
 
