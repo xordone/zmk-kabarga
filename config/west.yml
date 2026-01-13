@@ -1,6 +1,6 @@
 manifest:
   remotes:
-    - name: sqdbruh
+    - name: aroum
       url-base: https://github.com/aroum
   projects:
     - name: zmk
