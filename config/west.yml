@@ -3,10 +3,10 @@ manifest:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
     - name: sqdbruh
-      url-base: https://github.com/sqdbruh
+      url-base: https://github.com/aroum
   projects:
     - name: zmk
-      remote: sqdbruh
+      remote: aroum
       revision: main
       import: app/west.yml
   self:
