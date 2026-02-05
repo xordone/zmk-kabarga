@@ -47,7 +47,7 @@
         dot: dot {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp U &kp SPACE &sk LSHIFT>;
+            bindings = <&kp RU_DOT &kp SPACE &sk LSHIFT>;
             label = "DOT";
             wait-ms = <20>;
             tap-ms = <20>;
