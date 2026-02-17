@@ -11,7 +11,6 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/outputs.h>
-#include <dt-bindings/zmk/ext_power.h>
 
 #define MAIN    0
 #define NUM     1
@@ -166,7 +165,7 @@
 &none         &kp EXCL  &kp AT  &kp HASH    &kp DLLR  &kp PRCNT  &kp CARET  &kp AMPS  &kp ASTRK  &kp LPAR   &kp LBRC  &kp RBRC
 &kp TAB       &none     &none   &none       &none     &kp PLUS   &kp MINUS  &kp DLLR  &kp PRCNT  &kp CARET  &kp LBKT  &kp RBKT
 &kp LEFT_ALT  &none     &none   &kp LT      &kp GT    &kp EQUAL  &kp UNDER  &kp EXCL  &kp AT     &kp HASH   &kp LPAR  &kp RPAR
-                                &td_tester  &none     &none                 &mo 5     &none      &to 4
+                                &td_tester  &none     &to 6                 &mo 5     &none      &to 4
             >;
 
             label = "SYM";
@@ -192,6 +191,17 @@
             >;
 
             label = "ETC";
+        };
+
+        fighting {
+            bindings = <
+&trans  &trans    &kp UP    &trans     &trans  &trans  &kp Y  &kp U   &kp I      &kp O    &kp P     &kp LBKT
+&trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans  &kp H  &kp J   &kp K      &kp L    &kp SEMI  &kp SQT
+&trans  &trans    &trans    &trans     &trans  &trans  &kp N  &kp M   &kp COMMA  &kp DOT  &kp FSLH  &kp N0
+                            &kp UP     &kp UP  &kp UP         &trans  &trans     &to 0
+            >;
+
+            label = "fight";
         };
     };
 };
