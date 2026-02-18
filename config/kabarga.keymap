@@ -195,9 +195,9 @@
 
         fighting {
             bindings = <
-&kp ESC  &none     &kp UP    &none      &none   &kp ENTER  &kp Y  &kp U  &kp I  &kp O  &none  &none
-&none    &kp LEFT  &kp DOWN  &kp RIGHT  &none   &kp SPACE  &kp H  &kp J  &kp K  &kp L  &none  &none
-&none    &none     &none     &none      &none   &none      &none  &none  &none  &none  &none  &none
+&kp ESC  &none     &kp UP    &none      &none   &kp ENTER  &kp Y  &kp U  &kp I  &kp O  &none  &kp Z
+&none    &kp LEFT  &kp DOWN  &kp RIGHT  &none   &kp SPACE  &kp H  &kp J  &kp K  &kp L  &none  &kp X
+&none    &none     &none     &none      &none   &none      &none  &none  &none  &none  &none  &kp C
                              &kp UP     &kp UP  &kp UP            &none  &none  &to 0
             >;
 
