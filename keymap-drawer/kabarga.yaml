@@ -298,9 +298,52 @@ layers:
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-up-bold$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: TYPE, h: toggle}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: MAIN, h: toggle}
+  TYPE:
+  - {t: '$$mdi:keyboard-esc$$', s: '`'}
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - {t: '[', s: '{'}
+  - $$mdi:keyboard-tab$$
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - {t: ;, s: ':'}
+  - {t: '''', s: '"'}
+  - $$mdi:apple-keyboard-option$$
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - {t: ',', s: <}
+  - {t: ., s: '>'}
+  - {t: /, s: '?'}
+  - '&en_lang'
+  - $$mdi:apple-keyboard-control$$
+  - W
+  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: MAIN, h: toggle}
+  - {t: '$$mdi:backspace$$', type: backspace}
 combos:
 - p: [24, 35]
   k: $$mdi:progress-download$$
