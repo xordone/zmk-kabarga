@@ -271,7 +271,7 @@ layers:
   - O
   - P
   - {t: MAIN, h: toggle}
-  - $$mdi:apple-keyboard-caps$$
+  - $$mdi:keyboard-tab$$
   - A
   - S
   - D
