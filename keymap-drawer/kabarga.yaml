@@ -259,50 +259,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   FIGHT:
-  - $$mdi:keyboard-esc$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:arrow-up-bold$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - Y
-  - U
-  - I
-  - O
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - Z
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:arrow-left-bold$$
-  - $$mdi:arrow-down-bold$$
-  - $$mdi:arrow-right-bold$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:keyboard-space$$
-  - H
-  - J
-  - K
-  - L
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - X
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - C
-  - $$mdi:arrow-up-bold$$
-  - $$mdi:arrow-up-bold$$
-  - $$mdi:arrow-up-bold$$
-  - {t: TYPE, h: toggle}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: MAIN, h: toggle}
-  TYPE:
-  - {t: '$$mdi:keyboard-esc$$', s: '`'}
+  - Q
   - Q
   - W
   - E
@@ -313,8 +270,8 @@ layers:
   - I
   - O
   - P
-  - {t: '[', s: '{'}
-  - $$mdi:keyboard-tab$$
+  - {t: MAIN, h: toggle}
+  - $$mdi:apple-keyboard-caps$$
   - A
   - S
   - D
@@ -326,7 +283,7 @@ layers:
   - L
   - {t: ;, s: ':'}
   - {t: '''', s: '"'}
-  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-shift$$
   - Z
   - X
   - C
@@ -337,12 +294,12 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - '&en_lang'
+  - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-control$$
   - W
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: MAIN, h: toggle}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:backspace$$', type: backspace}
 combos:
 - p: [24, 35]
